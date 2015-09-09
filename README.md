@@ -1,3 +1,13 @@
+These files provision a VM for rails development with:
+
+* Ubuntu Trusty 64
+
+* `rbenv`
+
+* Postgresql
+
+* nodejs for javascript
+
 # Usage
 
 Assuming you have Vagrant and VirtualBox already installed you can use these files
@@ -33,6 +43,8 @@ the following way.
 6. `bundle install`
 
 7. `rails s`
+
+8. Access your app at `http:localhost:3000`
 
 # Notes
 
