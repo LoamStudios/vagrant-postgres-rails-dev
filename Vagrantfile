@@ -5,8 +5,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   # borrowed from the Discourse vagrant file
   config.vm.provider :virtualbox do |v|
-    # This setting gives the VM 1024MB of RAM instead of the default 384.
-    v.customize ["modifyvm", :id, "--memory", 1024]
+    # This setting gives the VM 2048 MB of RAM instead of the default 384.
+    v.customize ["modifyvm", :id, "--memory", 2048]
     
     # Who has a single core cpu these days anyways?
     cpu_count = 2
