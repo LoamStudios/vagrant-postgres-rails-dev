@@ -61,6 +61,6 @@ easily add it to your VM by adding a couple lines to your vagrant config.
 
 # Notes
 
-* If you're app is Rails 4.2, you'll need to run `rails s -b 0.0.0.0`.
+* If your app is running on Rails 4.2, you'll need to run `rails s -b 0.0.0.0`.
 
 * You might need to change the host port if you have multiple vagrant VMs running on your system.
