@@ -46,6 +46,19 @@ the following way.
 
 8. Access your app at `http:localhost:3000`
 
+# Extras
+
+Depending on what gems you include in your app, you might find it necessary to
+add additional software to you VM.
+
+### ImageMagick
+A number of file uploader gems require imagemagick to be on the server. You can
+easily add it to your VM by adding a couple lines to your vagrant config.
+
+1. Add `cookbook 'imagemagick', '~> 0.2.3'` to your `Cheffile`
+
+2. Add `chef.add_recipe "imagemagick"` to the block in `Vagrantfile` where you configure chef solo
+
 # Notes
 
 * If you're app is Rails 4.2, you'll need to run `rails s -b 0.0.0.0`.
