@@ -49,7 +49,7 @@ the following way.
 # Extras
 
 Depending on what gems you include in your app, you might find it necessary to
-add additional software to you VM.
+add additional software to your VM.
 
 ### ImageMagick
 A number of file uploader gems require imagemagick to be on the server. You can
